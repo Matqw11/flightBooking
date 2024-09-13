@@ -46,11 +46,6 @@ const flightBooking = new mongoose.Schema({
         type: String,
         required: true
     },
-   
-    flightNumber: {
-        type: String,
-        required: true
-    },
     departureCity: {
         type: String,
         required: true
